@@ -43,8 +43,7 @@ on:
   workflow_dispatch:
   
   push:
-    # Edit to the branch(es) you want to build and deploy on each push.
-    branches: [ lab-2 ]
+
 
 jobs:
   openshift-ci-cd:
